@@ -123,7 +123,7 @@ export async function authenticate(
         case 'CredentialsSignin':
           return 'Invalid credentials.';
         default:
-          return `Something went wrong. ${error.type}`;
+          return `Something went wrong.`;
       }
     }
     throw error;
